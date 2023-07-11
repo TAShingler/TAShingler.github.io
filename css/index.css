@@ -7,6 +7,9 @@
 html {
     width: 100vw;
     height: 100vh;
+}
+
+body {
     display: grid;
     grid-template-rows: max-content auto max-content;
 }
@@ -15,7 +18,7 @@ header {
     grid-row: 1;
 }
 
-body {
+.body-div {
     grid-row: 2;
 }
 
